@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #ff9a9e;
+  font-weight: 250;
+  margin-top: 35px;
+  background-color: rgb(218, 213, 213);
+}
+
+ul {
+  list-style-type: square;
+  margin-bottom: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #ff9a9e;
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card__image {
+  width: 300px;
+  height: 250px;
+  background-image: url(https://placehold.co/300x250);
+}
+
+.card__title {
+  color: rgb(111, 113, 114);
+  font-weight: 200;
+  margin: 0;
+}
+
+.card__content {
+  color: rgb(111, 113, 114);
+  font-weight: 150;
+  width: 250px;
+}
