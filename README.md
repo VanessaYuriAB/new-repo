@@ -6,6 +6,14 @@
 
 ---
 
+## 🔗 Visualização do Projeto
+
+Pode ser acessado via:
+
+➜ **GitHub Pages:** https://vanessayuriab.github.io/new-repo/
+
+---
+
 ## 📌 Sobre o projeto
 
 Este projeto foi criado como parte dos meus primeiros estudos em desenvolvimento front-end
